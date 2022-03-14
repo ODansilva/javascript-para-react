@@ -1,8 +1,7 @@
-
-function PlayerName(player) {
+function PlayerName(content) {
     return `
-            <h1>${player}</h1> 
-        `
-};
+        <p>${content}</p> 
+    `;
+}
 
 export default PlayerName;
